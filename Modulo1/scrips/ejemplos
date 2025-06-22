@@ -1,0 +1,18 @@
+precio_pan = 3.49
+descuento = 0.6
+
+cantidad_barras =int(input("ingrese el numero de barras de pan que no son vendidas del dia: "))
+
+descuento_aplicado = descuento * cantidad_barras * precio_pan
+precio_pagado = cantidad_barras * precio_pan *(1-descuento)
+
+
+
+
+
+
+
+
+print(f"precio barra pan (precio_pan)")
+print(f"descuento aplicado (descuento_aplicado)")
+print(f"precio pagado por el cliente (precio_pagado:.2f)")
